@@ -1,8 +1,5 @@
-import { Button } from '@/app/components';
+import Template from './components/Template';
+
 export default function Home() {
-  return (
-    <>
-      <Button>Create your resume</Button>
-    </>
-  );
+  return <Template />;
 }
