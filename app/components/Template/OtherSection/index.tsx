@@ -1,4 +1,5 @@
 import React from 'react';
+import Arrow from '../assets/arrow';
 
 type OtherSectionProps = {
   others?: string[][];
@@ -7,6 +8,7 @@ type OtherSectionProps = {
   startDate?: string;
   endDate?: string;
   onSite?: boolean;
+  projectLink?: string;
 };
 
 const OtherSection: React.FC<OtherSectionProps> = ({
@@ -16,6 +18,7 @@ const OtherSection: React.FC<OtherSectionProps> = ({
   startDate,
   endDate,
   onSite,
+  projectLink,
 }) => {
   return (
     <>
@@ -28,7 +31,15 @@ const OtherSection: React.FC<OtherSectionProps> = ({
       ) : (
         <div className='my-4'>
           <div className='grid grid-cols-3'>
-            <strong>{projectName}</strong>
+            <a
+              href={projectLink}
+              target='_blank'
+              className={`w-max flex items-center gap-x-2 ${
+                projectLink && 'underline'
+              }`}
+            >
+              <strong>{projectName}</strong> {projectLink && <Arrow />}
+            </a>
             <h6 className='italic text-center'>
               {onSite ? 'On-site' : 'Remote'}
             </h6>

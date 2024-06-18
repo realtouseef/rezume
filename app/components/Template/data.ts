@@ -10,12 +10,13 @@ export const data = {
       'JavaScript',
       'TypeScript',
       'ReactJS',
-      'NextJS 13',
+      'NextJS 14',
       'ExpressJS',
       'Mongoose',
       'MongoDB',
       'Git',
       'GitHub',
+      'AWS S3',
     ],
     [
       'Redux Toolkit',
@@ -26,9 +27,9 @@ export const data = {
       'Chakra-UI',
     ],
   ],
-  experience: {
-    first: {
-      position: 'Associate FullStack Engineer',
+  experience: [
+    {
+      position: 'FullStack Engineer',
       startDate: '11/2022',
       endDate: 'Present',
       companyName: 'Productbox',
@@ -39,8 +40,8 @@ export const data = {
         'Collaborating closely with cross-functional teams, including designers, product managers, and QA engineers, to deliver complex tasks on time and to the highest quality standards.',
       ],
     },
-    second: {
-      position: 'Associate FullStack Engineer',
+    {
+      position: 'FullStack Engineer',
       startDate: '01/2023',
       endDate: '04/2023',
       companyName: 'MetaKlouds',
@@ -52,7 +53,7 @@ export const data = {
         `Collaborated with team members to ensure project is completed on time and to client's satisfaction.`,
       ],
     },
-  },
+  ],
   education: {
     first: {
       degree: 'BS. Computer Science',
@@ -69,8 +70,30 @@ export const data = {
       description: ['Did my Pre-engineering from Warsak Model'],
     },
   },
-  projects: {
-    first: {
+  projects: [
+    {
+      projectName: 'Palitics',
+      startDate: '04/2024',
+      endDate: '06/2024',
+      onSite: false,
+      projectLink: 'https://palitics.co.uk',
+      description: [
+        'Palitics empowers individuals to make a significant impact on the political landscape',
+        'Played a key role in creating this platform that empowered voters by providing data-driven insights into the true power of their vote, enabling them to make informed decisions and shape a brighter, fairer future for everyone.',
+        'Attracting over 3,000+ visitors within the first three days, demonstrating its potential to make a significant impact in the online space',
+      ],
+    },
+    {
+      projectName: 'LevelId',
+      startDate: '01/2024',
+      endDate: '03/2024',
+      onSite: false,
+      description: [
+        'Played a key role in developing the Leveld.ai platform, which aims to level the playing field for companies delivering projects, making project management more accessible and approachable for a wider audience.',
+        'Utilized Next.js and TypeScript to craft a responsive and intuitive frontend for Leveld.ai, enhancing the user experience and simplifying project management for all users.',
+      ],
+    },
+    {
       projectName: 'meraID',
       startDate: '11/2022',
       endDate: 'Present',
@@ -79,7 +102,7 @@ export const data = {
         `meraID is Pakistan's first e-identity mobile application that represents your identity in a digital form as an electronic identity (e-ID).`,
       ],
     },
-    second: {
+    {
       projectName: 'PixelSouk',
       startDate: '01/2023',
       endDate: '05/2023',
@@ -88,5 +111,5 @@ export const data = {
         `PixelSouk is a marketplace for digital art and designs where sellers are content creator/designers`,
       ],
     },
-  },
+  ],
 };

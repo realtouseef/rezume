@@ -46,61 +46,35 @@ const Template = () => {
         <Heading title='Skills' />
         <OtherSection others={skills} />
 
-        {/* EXPERIENCE  */}
-
-        <Heading title='Experience' />
-        <OverviewSection
-          position={experience?.first?.position}
-          company={experience?.first?.companyName}
-          companyLink={experience?.first?.companyLink}
-          startDate={experience?.first?.startDate}
-          endDate={experience?.first?.endDate}
-          description={experience?.first?.description}
-        />
-        <OverviewSection
-          position={experience?.second?.position}
-          company={experience?.second?.companyName}
-          companyLink={experience?.second?.companyLink}
-          startDate={experience?.second?.startDate}
-          endDate={experience?.second?.endDate}
-          description={experience?.second?.description}
-        />
-
         {/* PROJECTS  */}
 
         <Heading title='Projects' />
-        <OtherSection
-          projectName={projects?.first?.projectName}
-          description={projects?.first?.description}
-          startDate={projects?.first?.startDate}
-          endDate={projects?.first?.endDate}
-          onSite={projects?.first?.onSite}
-        />
-        <OtherSection
-          projectName={projects?.second?.projectName}
-          description={projects?.second?.description}
-          startDate={projects?.second?.startDate}
-          endDate={projects?.second?.endDate}
-          onSite={projects?.second?.onSite}
-        />
+        {projects.map((project) => (
+          <OtherSection
+            key={project?.projectName}
+            projectName={project?.projectName}
+            projectLink={project?.projectLink}
+            description={project?.description}
+            startDate={project?.startDate}
+            endDate={project?.endDate}
+            onSite={project?.onSite}
+          />
+        ))}
 
-        {/* EDUCATION  */}
+        {/* EXPERIENCE  */}
 
-        {/* <Heading title='Education' />
-        <OverviewSection
-          degree={education?.first?.degree}
-          university={education?.first?.university}
-          startDate={education?.first?.startDate}
-          endDate={education?.first?.endDate}
-          description={education?.first?.description}
-        />
-        <OverviewSection
-          degree={education?.second?.degree}
-          university={education?.second?.university}
-          startDate={education?.second?.startDate}
-          endDate={education?.second?.endDate}
-          description={education?.second?.description}
-        /> */}
+        <Heading title='Experience' />
+        {experience.map((exp) => (
+          <OverviewSection
+            key={exp.companyName}
+            position={exp?.position}
+            company={exp?.companyName}
+            companyLink={exp?.companyLink}
+            startDate={exp?.startDate}
+            endDate={exp?.endDate}
+            description={exp?.description}
+          />
+        ))}
       </main>
       {/* 
       <button onClick={() => window.print()} id='print'>
