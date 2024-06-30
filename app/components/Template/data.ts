@@ -79,8 +79,46 @@ export const data = {
       projectLink: 'https://palitics.co.uk',
       description: [
         'Palitics empowers individuals to make a significant impact on the political landscape',
-        'Played a key role in creating this platform that empowered voters by providing data-driven insights into the true power of their vote, enabling them to make informed decisions and shape a brighter, fairer future for everyone.',
         'Attracting over 3,000+ visitors within the first three days, demonstrating its potential to make a significant impact in the online space',
+        'Played a key role in creating this platform that empowered voters by providing data-driven insights into the true power of their vote, enabling them to make informed decisions and shape a brighter, fairer future for everyone.',
+      ],
+    },
+    {
+      projectName: 'Masonry',
+      startDate: '10/2023',
+      endDate: '10/2023',
+      onSite: false,
+      projectLink: 'https://www.npmjs.com/package/@tx666/masonry',
+      description: [
+        'Achieved over 500+ downloads of the package within the first 20 hours, indicating high demand and adoption of the solution in the React community.',
+        'Leveraged TypeScript to enhance code organization, maintainability, and error detection in the front-end solution.',
+      ],
+    },
+    {
+      projectName: 'QuranFan',
+      startDate: '11/2021',
+      endDate: '12/2021',
+      onSite: false,
+      projectLink: 'https://quranfan.vercel.app/',
+      description: [
+        'Provides easy access to Quranic verses based on emotions like sadness, depression, and hopelessness, offering comfort and guidance.',
+        'Offers Quranic verses with Urdu and English translations, making them accessible to a wider audience.',
+        'Includes a feature to randomly pick a verse from the Quran, adding an element of inspiration.',
+        'Allows users to search for specific words or phrases in the Quran, enabling targeted exploration of the holy text.',
+        `Promotes the study and understanding of the Quran by making its verses more accessible and relatable to people's emotional experiences.`,
+      ],
+    },
+    {
+      projectName: 'Noorify',
+      startDate: '11/2023',
+      endDate: '12/2023',
+      onSite: false,
+      projectLink: 'https://www.npmjs.com/package/@tx666/masonry',
+      description: [
+        'Enables users to create high-quality, aesthetically pleasing images with verses from the Quran, without the need for complex photo editing software.',
+        'Simplifies the process of adding Quranic verses to images, making it accessible to a wider audience, including those with limited design skills.',
+        'Promotes the sharing and appreciation of Quranic verses through visually appealing, shareable images on social media and other platforms.',
+        'Helps individuals and organizations create inspirational, faith-based content for personal, educational, or religious purposes.',
       ],
     },
     {
