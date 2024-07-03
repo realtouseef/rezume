@@ -76,10 +76,6 @@ const Template = () => {
           />
         ))}
       </main>
-      {/* 
-      <button onClick={() => window.print()} id='print'>
-        Print
-      </button> */}
     </>
   );
 };
