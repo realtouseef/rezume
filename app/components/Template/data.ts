@@ -79,7 +79,7 @@ export const data = {
       projectLink: 'https://palitics.co.uk',
       description: [
         'Palitics empowers individuals to make a significant impact on the political landscape',
-        'Attracting over 3,000+ visitors within the first three days, demonstrating its potential to make a significant impact in the online space',
+        'Handling over 25K+ monthly users, demonstrating its potential to make a significant impact in the online space',
         'Played a key role in creating this platform that empowered voters by providing data-driven insights into the true power of their vote, enabling them to make informed decisions and shape a brighter, fairer future for everyone.',
       ],
     },
