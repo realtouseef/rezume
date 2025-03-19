@@ -10,7 +10,7 @@ export const data = {
       'JavaScript',
       'TypeScript',
       'ReactJS',
-      'NextJS 14',
+      'NextJS 15',
       'ExpressJS',
       'Mongoose',
       'MongoDB',
@@ -20,13 +20,13 @@ export const data = {
     ],
     [
       'Redux Toolkit',
-      'GraphQL',
       'Firebase Authentication',
-      'TailwindCSS',
-      'Bootstrap',
-      'Chakra-UI',
+      'Next-Auth',
+      'NextJS Server Actions'
     ],
+    ['TailwindCSS', 'Ant Design', 'ShadCN UI' ],
   ],
+
   experience: [
     {
       position: 'FullStack Engineer',
